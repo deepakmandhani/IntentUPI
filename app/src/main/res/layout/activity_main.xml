@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/payButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Pay with G-Pay"
+        android:visibility="visible" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/view2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="#FF2334"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:padding="20dp"
+        android:elevation="0dp"
+        android:innerRadius="10dp"
+        android:shape="ring"
+        android:thicknessRatio="1"
+        app:cardCornerRadius="0dp">
+
+        <ImageView
+            android:id="@+id/iv_upi_app_icon1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/codea_play"></ImageView>
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:background="#FF2334"
+        android:layout_margin="20dp"
+        android:layout_marginTop="10dp"
+        android:elevation="0dp"
+        android:innerRadius="10dp"
+        android:shape="ring"
+        android:thicknessRatio="1"
+        app:cardCornerRadius="20dp">
+
+        <ImageView
+            android:id="@+id/iv_upi_app_icon2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/codea_play"></ImageView>
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="#FF2334"
+
+        android:elevation="0dp"
+        android:innerRadius="10dp"
+        android:shape="ring"
+        android:thicknessRatio="1"
+        app:cardCornerRadius="40dp">
+
+        <ImageView
+            android:id="@+id/iv_upi_app_icon3"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:padding="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/codea_play"></ImageView>
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="#FF2334"
+        android:elevation="12dp"
+        android:innerRadius="0dp"
+        android:shape="ring"
+        android:thicknessRatio="10"
+        app:cardCornerRadius="0dp">
+
+        <ImageView
+            android:id="@+id/iv_upi_app_icon4"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/codea_play"></ImageView>
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:elevation="12dp"
+        android:innerRadius="0dp"
+        android:background="#FF2334"
+
+        android:shape="ring"
+        android:thicknessRatio="10"
+        app:cardCornerRadius="20dp">
+
+        <ImageView
+            android:id="@+id/iv_upi_app_icon5"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/codea_play"></ImageView>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:elevation="12dp"
+        android:background="#FF2334"
+
+        android:innerRadius="0dp"
+        android:shape="ring"
+        android:thicknessRatio="10"
+        app:cardCornerRadius="40dp">
+
+        <ImageView
+            android:id="@+id/iv_upi_app_icon6"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/codea_play"></ImageView>
+    </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:elevation="12dp"
+            app:cardCornerRadius="20dp"
+            android:background="#000000"
+            android:padding="5dp"
+            android:layout_centerHorizontal="true">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:padding="10dp"
+        android:elevation="12dp"
+        app:cardCornerRadius="20dp"
+        android:background="#FF2334"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true">
+        <ImageView
+            android:layout_height="40dp"
+            android:layout_width="match_parent"
+            android:id="@+id/imageView1"
+            android:src="@drawable/codea_play"
+            android:scaleType="centerCrop"/>
+    </android.support.v7.widget.CardView>
+        </android.support.v7.widget.CardView>
+
+    <EditText
+        android:id="@+id/payAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Enter UPI ID/VPA"
+        android:text="FUNDSINDIA@yesbank"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/payAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Enter amount to be paid"
+        android:text="1"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/payDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Enter payment remarks"
+        android:visibility="gone" />
+
+
+</LinearLayout>
